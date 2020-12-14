@@ -39,3 +39,14 @@ body {
   text-decoration-color: fuchsia;
 }
 /*End of Navigation - all pages*/
+
+/*Hero Image & Heading Text - index.html*/
+.hero-image {
+  height: 800px;
+  background: url("../images/woman-weightlifting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
