@@ -128,5 +128,13 @@ footer .row {
 }
 /*End of Jumbotron Section - about.html*/
 
+/*Start of Testimonial Section - about.html*/
+.clients {
+  color: black;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-bottom: 20px;
+}
+
 
 
