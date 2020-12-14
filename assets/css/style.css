@@ -103,5 +103,15 @@ footer .row {
 }
 /*End of Footer Section - all pages*/
 
+/*Start of Jumbotron Section - about.html*/
+.jumbotron {
+  height: 700px;
+  background: url("../images/woman-legpress.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 
 
