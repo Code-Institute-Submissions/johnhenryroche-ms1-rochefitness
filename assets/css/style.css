@@ -135,6 +135,27 @@ footer .row {
   margin-bottom: 1px;
   padding-bottom: 20px;
 }
+.clients img {
+  border-radius: 50%;
+  width: 100%;
+  padding: 20px;
+}
+
+.heading-testimonial {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(220, 4, 248);
+  text-shadow: 0.7px 0 0 black;
+}
+
+.blockquote-testimonial {
+  color: black;
+  padding: 5px;
+  margin-left: 1px;
+}
+/*End of Testimonial Section - about.html*/
+
 
 
 
