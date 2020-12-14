@@ -113,5 +113,20 @@ footer .row {
   width: 100%;
 }
 
+.jumbotron-fluid {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 0.8px black;
+}
+
+.jumbotron-about {
+  color: rgb(255, 85, 184);
+    text-align: center;
+  text-justify: inter-word;
+  font-size: 17px;
+  font-weight: 500;
+}
+/*End of Jumbotron Section - about.html*/
+
 
 
