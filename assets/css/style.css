@@ -1,7 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* General Body*/
 body {
   overflow-x: hidden;
   font-family: "roboto", sans-serif;
   color: #000000;
+}
+
+/*Navigation - all pages*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 140px;
+  z-index: 9999;
+}
+
+.navbar-brand img {
+  height: 106px;
+  margin-left: 20px;
+  width: 146px;
+}
+
+.navbar-nav li {
+  padding-right: 2px;
+  margin-right: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(220, 4, 248);
+  padding-top: 15px;
 }
