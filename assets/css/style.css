@@ -32,3 +32,10 @@ body {
   color: rgb(220, 4, 248);
   padding-top: 15px;
 }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff0000;
+  text-decoration: underline;
+  text-decoration-color: fuchsia;
+}
+/*End of Navigation - all pages*/
