@@ -209,6 +209,25 @@ footer .row {
   text-align: justify;
   padding-right: 10px;
 }
+.classes-box2 {
+  height: 480px;
+  background: url("../images/groupsession.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.classes-box3 {
+  height: 480px;
+  background: url("../images/personalsession.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+/*End of Classes Section - classes.html*/
+
 
 
 
