@@ -156,6 +156,36 @@ footer .row {
 }
 /*End of Testimonial Section - about.html*/
 
+/*Start of Facilities Section - facilities.html*/
+.heading-facilities {
+  color: black;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.facilities {
+  border-style: none;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.facilities img {
+  height: 350px;
+  width: 100%;
+  margin-left: 10px;
+  padding-right: 5%;
+}
+
+.row-3 {
+  color: black;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+/*End of Facilities Section - facilities.html*/
+
 
 
 
