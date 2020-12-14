@@ -74,4 +74,14 @@ body {
 }
 /*End of Hero Image & Heading Text - index.html*/
 
+/*Button for Joining - index.html & joinus.html*/
+.btn-lg {
+  border-width: medium;
+  color: white;
+  border-color: fuchsia;
+  background-color: rgb(153, 0, 255);
+  border-radius: 50%;
+}
+/*End of Button for Joining - index.html & joinus.html*/
+
 
