@@ -186,6 +186,32 @@ footer .row {
 }
 /*End of Facilities Section - facilities.html*/
 
+/*Start of Classes Section - classes.html*/
+.classes-box1 {
+  border-style: solid;
+  border-color: black;
+}
+
+.classes-caption {
+  width: 100%;
+  max-width: 100%;
+  top: 38%;
+  z-index: 1;
+  color: black;
+  padding-left: 5px;
+}
+
+.personal-training1 {
+  color: black;
+
+}
+.personal-training2 {
+  color: black;
+  text-align: justify;
+  padding-right: 10px;
+  
+}
+
 
 
 
