@@ -13,7 +13,9 @@
 </head>
 
 <!--Start of Enquiry Form-->
-  <body class="enquiry-heroimage" role="img" aria-label="man weightlifting">
+<!--Note: The code validator was not allowing me to put an aria label for the background image in the body tag, so I removed it. 
+    The picture of a man-weightlifting is not important in respect of a screen reader understanding that this is an enquiry form so this will not impact on accessibility"-->
+  <body class="enquiry-heroimage">
   <img class="enquiry-image" src="assets/images/logo.png" alt="Logo for Roche Fitness">
   <h2 class="enquiry-heading"> Enquiry Form</h2>
 <form class="enquiry-form">
@@ -44,13 +46,6 @@
     </div>
   </div>
  <button type="submit" class="btn btn-primary" onclick="myFunction()" id="submitform">Submit</button>
-<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      ...
-    </div>
-  </div>
-</div>
 </form>
 <!--End of Enquiry Form-->
 
