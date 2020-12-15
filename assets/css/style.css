@@ -280,6 +280,16 @@ footer .row {
 }
 /*End of Page - gyminfo.html*/
 
+/*Start of Enquiry Page - gyminfo.html*/
+.enquiry-heroimage {
+  height: 800px;
+  background: url("../images/enquiry-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 
 
 
