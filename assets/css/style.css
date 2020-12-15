@@ -231,6 +231,22 @@ footer .row {
 }
 /*End of Classes Section - classes.html*/
 
+/*Start of Jumbotron Section - joinus.html*/
+.jumbotron-2 {
+  height: 800px;
+  background: url("../images/man-resistance.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.joinus-text {
+  color: white;
+}
+/*End of Jumbotron Section - joinus.html*/
+
+
 
 
 
