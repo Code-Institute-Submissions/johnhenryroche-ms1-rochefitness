@@ -180,7 +180,7 @@ By forking the GitHub Repository you are able to make a copy of the original rep
 - [z-index 9999](https://stackoverflow.com/questions/18769549/why-do-i-have-to-configure-z-index-to-be-9999): My dropdown menu was not showing in mobile so I followed advice on StackOverflow to put the Z-Index to 9999 which resolved the issue.
 - [Using Background Images for Divs - screen reader](https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible): As I used a few images to fill Divs (background-size: cover) in the website, I followed the instructions for this post so that these images would still be fully accessible to someone with a screen reader.
 - [Using Title in Enquiry Form - screen reader](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute): I was having difficulty adding screen reader information for the Hero Image on the query page, so I used the reply from this post which advises to use "title" to assist screen-readers who cannot see the hero image.
-- [HTML Onclick Event Attribute](https://www.w3schools.com/tags/ev_onclick.asp): This information allows the button in the submit form to update to reflect that the form has been submitted. I used this as a form of added functionality.
+- [HTML Onclick Event Attribute](https://www.w3schools.com/tags/ev_onclick.asp): This information allows the button in the submit form to update to reflect that the submit button has been clicked. I used this as a form of added functionality.
 
 ### Content
 - All content within this project was written by the developer.
