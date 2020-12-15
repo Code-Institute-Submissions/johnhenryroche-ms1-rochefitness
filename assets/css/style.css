@@ -246,6 +246,19 @@ footer .row {
 }
 /*End of Jumbotron Section - joinus.html*/
 
+/*Start of Membership Section - joinus.html*/
+.membership-row {
+  background-color: rgb(255, 0, 149);
+  color: black;
+  opacity: 0.9;
+}
+
+.membership-border {
+  border: 1px solid white;
+}
+/*End of Membership Section - joinus.html*/
+
+
 
 
 
