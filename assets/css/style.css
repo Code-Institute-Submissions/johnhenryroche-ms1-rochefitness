@@ -266,6 +266,21 @@ footer .row {
 }
 /*End of Buttons Section - joinus.html*/
 
+/*Start of Page - gyminfo.html*/
+.row-gyminfo {
+  color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.photo-gyminfo img {
+    max-width: 95%;
+    max-height: 380px;
+    border: 1px solid black;
+}
+/*End of Page - gyminfo.html*/
+
+
 
 
 
