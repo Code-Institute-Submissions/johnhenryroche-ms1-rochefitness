@@ -49,6 +49,7 @@ body {
   background-size: cover;
   width: 100%;
 }
+
 .hero-text {
   width: 100%;
   max-width: 100%;
@@ -135,6 +136,7 @@ footer .row {
   margin-bottom: 1px;
   padding-bottom: 20px;
 }
+
 .clients img {
   border-radius: 50%;
   width: 100%;
@@ -203,13 +205,11 @@ footer .row {
 
 .personal-training1 {
   color: black;
-
 }
 .personal-training2 {
   color: black;
   text-align: justify;
   padding-right: 10px;
-  
 }
 
 .classes-box2 {
@@ -293,6 +293,7 @@ footer .row {
   background-size: cover;
   width: 100%;
 }
+
 .enquiry-image {
   padding-left: 10px;
   margin-top: 5px;
