@@ -67,6 +67,7 @@ Both of these open in new windows.
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) 
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Used for 1 section in enquiry form (see Code Credits)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -133,6 +134,7 @@ This testing confirmed that the code was fully in order (no errors found).
 
 ## Further Testing
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- I also tested the website in Google Lighthouse, which returned the following scores; (i) Performance (73), (ii) Accessibility: 90, (iii) Best Practices: 79 & (iv) SEO: 92.
 - The website was viewed on a variety of devices such as Desktop, iPad, iPhone 6 & iPhone X. All formats were in order with no sections out of line or overlapping.
 - I completed a large amount of testing to ensure that all links were working correctly and that external links opened, and was happy that there were no broken links.  
 - My family were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack and took on any suggestions offered from that.
