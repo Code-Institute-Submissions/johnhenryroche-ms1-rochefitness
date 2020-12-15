@@ -289,6 +289,29 @@ footer .row {
   background-size: cover;
   width: 100%;
 }
+.enquiry-image {
+  padding-left: 10px;
+  margin-top: 5px;
+  height: 100px;
+}
+
+.enquiry-heading {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.enquiry-form {
+  padding: 10px;
+  color: white;
+}
+
+.btn {
+  margin: auto;
+  text-align: center;
+}
+/*End of Enquiry Page - gyminfo.html*/
+
 
 
 
