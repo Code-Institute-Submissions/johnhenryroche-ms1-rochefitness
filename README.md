@@ -2,14 +2,16 @@
 
 ## Gym Website
 
-[View the Live Website Here](#)
+[View the Live Website Here](https://jhr1986.github.io/johnhenryroche-ms1-rochefitness/)
 
 This project comprises the development of a 6 page website for a fictional recently established gym called Roche Fitness, which is located in Deansgrange Business Park in South Dublin. 
 The website has 6 separate pages to outline the services provided by the gym (Home, About, Facilities, Classes, Join & Info), and an Enquiry Form and Classes Schedule (PDF) which are accessed in new windows through call to action buttons.
 The main aim of this website is to provide (i) an overview of the gym to potential customers, prior to them being able to make an Enquiry about Membership, and (ii) important information for Current Members in order that they can avail of all of the gym's services.   
 In respect of the construction of the website, it has been designed to be fully responsive, intuitive and accessible on a range of media devices, in order to make it easy for Current and Prospective Members to navigate the site and source information.
 
-[Photo of Site Represented on Various Media](#)
+Photo of Site Represented on Various Media:
+![responsivephoto](https://user-images.githubusercontent.com/71781554/102236262-32799e80-3eeb-11eb-8149-fef3f4f02c82.png)
+
 
 ## User Experience (UX)
 ### User stories:
