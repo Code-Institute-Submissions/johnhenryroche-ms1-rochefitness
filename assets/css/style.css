@@ -256,6 +256,10 @@ footer .row {
 .membership-border {
   border: 1px solid white;
 }
+
+.membership-title {
+    font-size: 25px;
+}
 /*End of Membership Section - joinus.html*/
 
 /*Start of Buttons Section - joinus.html*/
