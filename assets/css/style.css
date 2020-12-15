@@ -313,6 +313,24 @@ footer .row {
 /*End of Enquiry Page - gyminfo.html*/
 
 
+/* Start of Media Queries */
+@media (max-width: 767px) {
+  .clients img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+@media (max-width: 768px) {
+  iframe {
+    max-width: 95%;
+    display: block;
+  }
+}
+/*End of Media Queries*/
+
+
 
 
 
