@@ -140,7 +140,9 @@ This testing confirmed that the code was fully in order (no errors found).
 - My family were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that.
 
 ### Known Bugs
-- The dropdown links for the navbar (on mobile devices) can be a little difficult to see when a page has a white background (owing to the purple colour), but the link names are still perfectly visible.
+- The dropdown links for the navbar (on mobile devices) were a little difficult to see when a page had a white background (owing to the purple colour).
+I resolved this issue by adding a black background to the collapsed hamburger menu.
+
 
 ## Deployment
 
@@ -184,6 +186,7 @@ By forking the GitHub Repository you are able to make a copy of the original rep
 - [z-index 9999](https://stackoverflow.com/questions/18769549/why-do-i-have-to-configure-z-index-to-be-9999): My dropdown menu was not showing in mobile so I followed advice on StackOverflow to put the Z-Index to 9999 which resolved the issue.
 - [Using Background Images for Divs - screen reader](https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible): As I used a few images to fill Divs (background-size: cover) in the website, I followed the instructions for this post so that these images would still be fully accessible to someone with a screen reader.
 - [Using Title in Enquiry Form - screen reader](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute): I was having difficulty adding screen reader information for the Hero Image on the query page, so I used the reply from this post which advises to use "title" to assist screen-readers who cannot see the hero image.
+- [Background Colour for Collapsed Menu](https://stackoverflow.com/questions/39211628/background-for-hamburger-menu-items-in-bootstrap): I noted that list items in collapsible hamburger menu were difficult to see. This post explained how to add a background colour to the collapsed Navbar so the purple links are clearly visible. 
 
 ### Content
 - All content within this project was written by the developer.
