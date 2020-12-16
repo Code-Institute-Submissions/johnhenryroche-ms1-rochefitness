@@ -39,6 +39,10 @@ body {
   text-decoration: underline;
   text-decoration-color: fuchsia;
 }
+
+.navbar-collapse {
+    background: #333333;
+}
 /*End of Navigation - all pages*/
 
 /*Hero Image & Heading Text - index.html*/
