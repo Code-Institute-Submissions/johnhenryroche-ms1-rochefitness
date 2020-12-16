@@ -136,7 +136,7 @@ This testing confirmed that the code was fully in order (no errors found).
 - I also tested the website in Google Lighthouse, which returned the following scores; (i) Performance: 73, (ii) Accessibility: 90, (iii) Best Practices: 79 & (iv) SEO: 92.
 - The website was viewed on a variety of devices such as Desktop, iPad, iPhone 6 & iPhone X. All formats were in order with no sections out of line or overlapping.
 - I completed a large amount of testing to ensure that all links were working correctly and that external links opened, and was happy that there were no broken links.
-- I tested adding a JavaScript onclick function to the enquiry form but it became too complicated (as the button would change to "form submitted" even when a field was empty), so I left the enquiry form as it was.  
+- I tested adding (i) a JavaScript onclick function to the Enquiry Form and/or (ii) a modal Bootstrap button to display a "Submitted" popup text when submit button was clicked, but it became too complicated (as the button would change to "Submitted" even when a field was empty), so I left the Enquiry Form as it was (e.g. all fields must be filled in and then submit button is clicked).  
 - My family were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that.
 
 ### Known Bugs
