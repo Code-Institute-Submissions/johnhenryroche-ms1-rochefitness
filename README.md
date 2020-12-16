@@ -5,8 +5,8 @@
 [View the Live Website Here](https://jhr1986.github.io/johnhenryroche-ms1-rochefitness/)
 
 This project comprises the development of a 6 page website for a fictional recently established gym called Roche Fitness, which is located in Deansgrange Business Park in South Dublin. 
-The website has 6 separate pages to outline the services provided by the gym (Home, About, Facilities, Classes, Join & Info), and an Enquiry Form and Classes Schedule (PDF) which are accessed in new windows through call to action buttons.
-The main aim of this website is to provide (i) an overview of the gym to potential customers, prior to them being able to make an Enquiry about Membership, and (ii) important information for Current Members in order that they can avail of all of the gym's services.   
+The website has 6 separate pages to outline the services provided by the gym (Home, About, Facilities, Classes, Join & Info), and an Enquiry Form and Class Schedule (PDF) which are accessed in new windows through call to action buttons.
+The main aim of this website is to provide (i) an overview of the gym to potential customers, prior to them being able to make an Enquiry regarding Membership, and (ii) important information for Current Members in order that they can avail of all of the gym's services.
 In respect of the construction of the website, it has been designed to be fully responsive, intuitive and accessible on a range of media devices, in order to make it easy for Current and Prospective Members to navigate the site and source information.
 
 Photo of Site Represented on Various Media:
@@ -67,7 +67,6 @@ Both of these open in new windows.
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) 
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Used for 1 section in enquiry form (see Code Credits)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -136,8 +135,9 @@ This testing confirmed that the code was fully in order (no errors found).
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 - I also tested the website in Google Lighthouse, which returned the following scores; (i) Performance: 73, (ii) Accessibility: 90, (iii) Best Practices: 79 & (iv) SEO: 92.
 - The website was viewed on a variety of devices such as Desktop, iPad, iPhone 6 & iPhone X. All formats were in order with no sections out of line or overlapping.
-- I completed a large amount of testing to ensure that all links were working correctly and that external links opened, and was happy that there were no broken links.  
-- My family were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack and took on any suggestions offered from that.
+- I completed a large amount of testing to ensure that all links were working correctly and that external links opened, and was happy that there were no broken links.
+- I tested adding a JavaScript onclick function to the enquiry form but it became too complicated (as the button would change to "form submitted" even when a field was empty), so I left the enquiry form as it was.  
+- My family were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that.
 
 ### Known Bugs
 - The dropdown links for the navbar (on mobile devices) can be a little difficult to see when a page has a white background (owing to the purple colour), but the link names are still perfectly visible.
@@ -146,33 +146,33 @@ This testing confirmed that the code was fully in order (no errors found).
 
 ### GitHub Pages
 
-This project was developed using Gitpod. I planned the site outline over several weeks and then committed the code to git and pushed to Github.
+This project was developed using Gitpod. I planned the site outline and structure over several weeks and then committed the code to git and pushed to Github.
 
 To deploy this page to GitHub Pages, the following steps need to be followed;
 
-1.	Log in to GitHub and locate the GitHub Repository
-2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-3.	Scroll down to the Settings page until you locate the "GitHub Pages" Section.
+1.	Log in to the GitHub website and locate the GitHub Repository.
+2.	At the top of the Repository, locate the "Settings" Button in the menu area.
+3.	Scroll down to the Settings page until you arrive at the "GitHub Pages" Section.
 4.	Under "Source", click the dropdown menu called "None" and select "Master Branch".
-5.	The page will automatically refresh and the website is now deployed.
-6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+5.	The page will automatically refresh and the website is now deployed and is able to be viewed.
+6.	Scroll back down to locate the now published site link in the "GitHub Pages" section.
 
 ## Forking the GitHub Repository
 
-By forking the GitHub Repository you are able to make a copy of the original repository on the GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-1.	Log in to GitHub and locate the GitHub Repository
-2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+By forking the GitHub Repository you are able to make a copy of the original repository on the GitHub account to view and/or make changes without affecting the original repository;
+1.	Log in to GitHub and locate the GitHub Repository.
+2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate and select the "Fork" Button.
 3.	You should now have a copy of the original repository in your GitHub account.
 
 ## Making a Local Clone
 1.	Log in to GitHub and locate the GitHub Repository
 2.	Under the repository name, click "Clone or download".
 3.	To clone the repository using HTTPS, copy the link under "Clone with HTTPS".
-4.	Then proceed to Open Git Bash
+4.	Proceed to open Git Bash
 5.	Change the current working directory to the location where you want the cloned directory to be made.
-6.	Type ```git clone```, and then paste the URL you copied in Step 3.
+6.	Type ```git clone```, and then paste the URL you copied from the link in Step 3.
 7.  ```$ git clone https://github.com/USERNAME/REPOSITORY```
-8. Press Enter. Your local clone will be created.
+8. Press Enter and your local clone will be created and available.
 
 # Credits
 
@@ -180,11 +180,10 @@ By forking the GitHub Repository you are able to make a copy of the original rep
 - [Bootstrap w-100](https://stackoverflow.com/questions/43405426/why-use-bootstraps-w-100-class-to-split-a-rows-columns-into-two-rows-when-yo): I studied this post in order to split the page into four boxes on the Classes page and retain the Call to Action "Classes Schedule" button in the middle of the page.
 - [Insert a Google Map to Your Website](https://www.youtube.com/watch?v=KIC0OK9nKXY): I watched this Youtube Tutorial to understand how to input an interactive Google Map into the Info Page.
 - [Build A Complete HTML & CSS Website with Bootstrap 4](https://www.youtube.com/watch?v=V_lAhqLXT9A): I watched this Youtube tutorial before I commenced my project to gain a more detailed understanding of how Bootstrap is applied when constructing a website. 
-- [Bootstrap4](https://getbootstrap.com/): I used the Bootstrap Library throughout the project to make the site more responsive through using the Bootstrap Grid System – Navbar, Footer, Jumbotron and Query Form.
+- [Bootstrap4](https://getbootstrap.com/): I used the Bootstrap Library throughout the project to make the site more responsive through using the Bootstrap Grid System and employing Bootstrap elements for the Navbar, Footer, Jumbotron, Sections and Query Form.
 - [z-index 9999](https://stackoverflow.com/questions/18769549/why-do-i-have-to-configure-z-index-to-be-9999): My dropdown menu was not showing in mobile so I followed advice on StackOverflow to put the Z-Index to 9999 which resolved the issue.
 - [Using Background Images for Divs - screen reader](https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible): As I used a few images to fill Divs (background-size: cover) in the website, I followed the instructions for this post so that these images would still be fully accessible to someone with a screen reader.
 - [Using Title in Enquiry Form - screen reader](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute): I was having difficulty adding screen reader information for the Hero Image on the query page, so I used the reply from this post which advises to use "title" to assist screen-readers who cannot see the hero image.
-- [HTML Onclick Event Attribute](https://www.w3schools.com/tags/ev_onclick.asp): This information allows the button in the submit form to update to reflect that the submit button has been clicked. I used this as a form of added functionality.
 
 ### Content
 - All content within this project was written by the developer.
