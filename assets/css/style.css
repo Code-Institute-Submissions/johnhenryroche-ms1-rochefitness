@@ -8,6 +8,7 @@ body {
 }
 
 /*Navigation - all pages*/
+/*I studied Stackoverflow post to get dropdown menu to be seen in mobile. See Code Section in Readme for link & more information */
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
