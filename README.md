@@ -64,7 +64,7 @@ In review, the wireframes stayed generally consistent with the finished design, 
 Both of these open in new windows. The Enquiry Form can be accessed through call to action buttons on the Home Page and Join page, while the Classes Schedule is accessed through a call to action button at the centre of the Classes page.
 - Each page in the website (except for the Enquiry Form & the Classes Schedule) features a responsive bootstrap navigation bar with the gym logo featured to the left and the five page links to the right, and these pages also each contain a 4 column footer with a copyright message, address, opening hours and contact information (email and phone).
 The Home, About, Join & Enquiry pages feature a large hero image, while there are various smaller images inputted in the Facilities, Classes & Info pages. 
-Each page has been designed to be intuitive and easy to follow, with text prepared in a concise and to the point structure, and flows in a logical manner from the Home Page to the Join Page.
+Each page has been designed to be intuitive and easy to follow, with text prepared in a concise and to the point structure, and flows in a logical manner from the Home Page to the Join Page;
     - Home Page: Hero Image with Heading Text confirming Roche Fitness as a new gym in South Dublin.
     - About Page: Hero Image with History/Overview of Roche Fitness & Testimonial Section.
     - Facilities Page: 4 text boxes with accompanying images to describe facilities.
