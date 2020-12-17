@@ -67,6 +67,8 @@ Each page has been designed to be intuitive and easy to follow, with text prepar
 
 ![screenshotnavbar](https://user-images.githubusercontent.com/71781554/102490304-8f4d9400-4066-11eb-824f-87cc89b4846d.png)
 
+![screenshotfooter](https://user-images.githubusercontent.com/71781554/102490833-4a762d00-4067-11eb-9fe7-52d1b5455fba.png)
+
 ## Technologies Used
 
 ### Languages Used
