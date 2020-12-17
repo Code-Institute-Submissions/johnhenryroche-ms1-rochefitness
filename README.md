@@ -1,15 +1,16 @@
 # Roche Fitness
 
-## Gym Website
+## Gym Website - Milestone Project 1
 
 [View the Live Website Here](https://jhr1986.github.io/johnhenryroche-ms1-rochefitness/)
 
 This project comprises the development of a 6 page website for a fictional recently established gym called Roche Fitness, which is located in Deansgrange Business Park in South Dublin. 
 The website has 6 separate pages to outline the services provided by the gym (Home, About, Facilities, Classes, Join & Info), and an Enquiry Form and Class Schedule (PDF) which are accessed in new windows through call to action buttons.
 The main aim of this website is to provide (i) an overview of the gym to potential customers, prior to them being able to make an Enquiry regarding Membership, and (ii) important information for Current Members in order that they can avail of all of the gym's services.
-In respect of the construction of the website, it has been designed to be fully responsive, intuitive and accessible on a range of media devices, in order to make it easy for Current and Prospective Members to navigate the site and source information.
+In respect of the construction of the website, it has been designed to be fully responsive, intuitive and accessible on a range of media devices (e.g. mobile, tablet & desktop), in order to make it easy for Current and Prospective Members to navigate the site and source information that they require.
 
 Photo of Site Represented on Various Media:
+
 ![responsivephoto](https://user-images.githubusercontent.com/71781554/102236262-32799e80-3eeb-11eb-8149-fef3f4f02c82.png)
 
 
@@ -59,7 +60,12 @@ In review, the wireframes stayed generally consistent with the finished design, 
 ## Features
 - The website is responsive on all device sizes (and has been tested through Chrome Dev Tools on iPhone 6, iPhone X, iPad and Desktop).
 - The website has several interactive elements, including various Bootstrap buttons which can be clicked to open up an Enquiry Form and a Class Schedule. 
-Both of these open in new windows. 
+Both of these open in new windows. The Enquiry Form can be accessed through call to action buttons on the Home Page and Join page, while the Classes Schedule is accessed through a call to action button at the centre of the Classes page.
+- Each page in the website (except for the Enquiry Form & the Classes Schedule) features a responsive bootstrap navigation bar with the gym logo featured to the left and the five page links to the right, and these pages also each contain a 4 column footer with a copyright message, address, opening hours and contact information (email and phone).
+The Home, About, Join & Enquiry pages feature a large hero image, while there are various smaller images inputted in the Facilities, Classes & Info pages. 
+Each page has been designed to be intuitive and easy to follow, with text prepared in a concise and to the point structure, and flows in a logical manner from the Home Page to the Join Page.
+
+![screenshotnavbar](https://user-images.githubusercontent.com/71781554/102490304-8f4d9400-4066-11eb-824f-87cc89b4846d.png)
 
 ## Technologies Used
 
@@ -91,7 +97,7 @@ Both of these open in new windows.
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project (6 html pages, 2 forms & css page) in order to ensure that there were no syntax errors in the project (e.g. the code was fully accurate and correctly structured throughout).
 This testing confirmed that the code was fully in order (no errors found).
 
-## Testing User Stories from User Experience (UX) Section
+### Testing User Stories from User Experience (UX) Section
 
 ### First Time Visitor Goals
 
@@ -110,7 +116,7 @@ This testing confirmed that the code was fully in order (no errors found).
 - Once the new visitor has read the About Us main text, they will notice the Testimonial Section at the bottom of the page.
 - This section has comments from two gym users about their experiences to date and the benefit that they have received from being a member.
 
-## Returning Visitor Goals
+### Returning Visitor Goals
 
 1. As a Returning Visitor, I want to locate information about new classes or updated facilities since my last visit to the site.
 - The latest classes are listed in a PDF page which opens in a new tab when the Class Schedule button on the Classes page is pushed.
@@ -120,7 +126,7 @@ This testing confirmed that the code was fully in order (no errors found).
 - The Join page has a map of the gym's location, information about the car park and the details for Opening Hours and Contact information.
 - Contact Information is also listed in the Footer section of every page (address, phone and email), along with general information. 
 
-## Frequent User Goals
+### Frequent User Goals
 
 1. As a Frequent User, I want to check to see what time the free group workout classes are on each week.
 - The user would already be comfortable with the website layout and can easily go to the Classes link where the Class Schedule link is listed at the centre of the page.
@@ -131,7 +137,7 @@ This testing confirmed that the code was fully in order (no errors found).
 3. As a Frequent User, I want to confirm if opening hours have been amended or contact the gym with specific enquiries (e.g. is gym open on a bank holiday)
 - At the bottom of every page there is a footer which has all relevant current information for the gym.
 
-## Further Testing
+### Further Testing
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 - I also tested the website in Google Lighthouse, which returned the following scores; (i) Performance: 73, (ii) Accessibility: 90, (iii) Best Practices: 79 & (iv) SEO: 92.
 - The website was viewed on a variety of devices such as Desktop, iPad, iPhone 6 & iPhone X. All formats were in order with no sections out of line or overlapping.
@@ -159,14 +165,14 @@ To deploy this page to GitHub Pages, the following steps need to be followed;
 5.	The page will automatically refresh and the website is now deployed and is able to be viewed.
 6.	Scroll back down to locate the now published site link in the "GitHub Pages" section.
 
-## Forking the GitHub Repository
+### Forking the GitHub Repository
 
 By forking the GitHub Repository you are able to make a copy of the original repository on the GitHub account to view and/or make changes without affecting the original repository;
 1.	Log in to GitHub and locate the GitHub Repository.
 2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate and select the "Fork" Button.
 3.	You should now have a copy of the original repository in your GitHub account.
 
-## Making a Local Clone
+### Making a Local Clone
 1.	Log in to GitHub and locate the GitHub Repository
 2.	Under the repository name, click "Clone or download".
 3.	To clone the repository using HTTPS, copy the link under "Clone with HTTPS".
@@ -176,9 +182,9 @@ By forking the GitHub Repository you are able to make a copy of the original rep
 7.  ```$ git clone https://github.com/USERNAME/REPOSITORY```
 8. Press Enter and your local clone will be created and available.
 
-# Credits
+## Credits
 
-## Code
+### Code
 - [Bootstrap w-100](https://stackoverflow.com/questions/43405426/why-use-bootstraps-w-100-class-to-split-a-rows-columns-into-two-rows-when-yo): I studied this post in order to split the page into four boxes on the Classes page and retain the Call to Action "Classes Schedule" button in the middle of the page.
 - [Insert a Google Map to Your Website](https://www.youtube.com/watch?v=KIC0OK9nKXY): I watched this Youtube Tutorial to understand how to input an interactive Google Map into the Info Page.
 - [Build A Complete HTML & CSS Website with Bootstrap 4](https://www.youtube.com/watch?v=V_lAhqLXT9A): I watched this Youtube tutorial before I commenced my project to gain a more detailed understanding of how Bootstrap is applied when constructing a website. 
