@@ -35,13 +35,13 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #ff006C;
+  color: rgb(255, 0, 108);
   text-decoration: underline;
-  text-decoration-color: fuchsia;
+  text-decoration-color: rgb(255, 0, 255);
 }
 
 .navbar-collapse {
-    background: #343a40;
+    background: rgb(53, 59, 65);
 }
 /*End of Navigation - all pages*/
 
@@ -68,13 +68,13 @@ body {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 1px 1px 0.8px black;
+  text-shadow: 1px 1px 0.8px #000000;
   padding-bottom: 20px;
 }
 
 .hero-text p {
   font-size: 30px;
-  text-shadow: 1px 1px 0.8px black;
+  text-shadow: 1px 1px 0.8px #000000;
   padding-bottom: 12px;
   color: rgb(255, 85, 184);
 }
@@ -83,8 +83,8 @@ body {
 /*Button for Joining - index.html & joinus.html*/
 .btn-lg {
   border-width: medium;
-  color: white;
-  border-color: fuchsia;
+  color: #ffffff;
+  border-color: rgb(255, 0, 255);
   background-color: rgb(153, 0, 255);
   border-radius: 50%;
 }
@@ -100,7 +100,7 @@ footer {
 footer .row {
   text-align: center;
   color: rgb(220, 4, 248);
-  text-shadow: 0.7px 0 0 black;
+  text-shadow: 0.7px 0 0 #000000;
 }
 
 .footer-text {
@@ -121,8 +121,8 @@ footer .row {
 
 .jumbotron-fluid {
   text-align: center;
-  color: white;
-  text-shadow: 1px 1px 0.8px black;
+  color: #ffffff;
+  text-shadow: 1px 1px 0.8px #000000;
 }
 
 .jumbotron-about {
@@ -131,13 +131,13 @@ footer .row {
   text-justify: inter-word;
   font-size: 18px;
   font-weight: 500;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px #000000;
 }
 /*End of Jumbotron Section - about.html*/
 
 /*Start of Testimonial Section - about.html*/
 .clients {
-  color: black;
+  color: #000000;
   margin-top: 1px;
   margin-bottom: 1px;
   padding-bottom: 20px;
@@ -154,11 +154,11 @@ footer .row {
   text-align: center;
   text-decoration: underline;
   color: rgb(220, 4, 248);
-  text-shadow: 0.7px 0 0 black;
+  text-shadow: 0.7px 0 0 #000000;
 }
 
 .blockquote-testimonial {
-  color: black;
+  color: #000000;
   padding: 5px;
   margin-left: 1px;
 }
@@ -166,7 +166,7 @@ footer .row {
 
 /*Start of Facilities Section - facilities.html*/
 .heading-facilities {
-  color: black;
+  color: #000000;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
@@ -188,7 +188,7 @@ footer .row {
 }
 
 .row-3 {
-  color: black;
+  color: #000000;
   padding-top: 10px;
   padding-left: 10px;
 }
@@ -197,7 +197,7 @@ footer .row {
 /*Start of Classes Section - classes.html*/
 .classes-box1 {
   border-style: solid;
-  border-color: black;
+  border-color: #000000;
 }
 
 .classes-caption {
@@ -205,17 +205,17 @@ footer .row {
   max-width: 100%;
   top: 38%;
   z-index: 1;
-  color: black;
+  color: #000000;
   padding-left: 5px;
 }
 
 .personal-training1 {
-  color: black;
+  color: #000000;
   font-size: 35px;
 }
 
 .personal-training2 {
-  color: black;
+  color: #000000;
   text-align: justify;
   padding-right: 10px;
 }
@@ -250,14 +250,14 @@ footer .row {
 }
 
 .joinus-text {
-  color: white;
+  color: #ffffff;
 }
 /*End of Jumbotron Section - joinus.html*/
 
 /*Start of Membership Section - joinus.html*/
 .membership-row {
   background-color: rgb(255, 0, 149);
-  color: black;
+  color: #000000;
   opacity: 0.9;
 }
 
@@ -280,7 +280,7 @@ footer .row {
 
 /*Start of Page - gyminfo.html*/
 .row-gyminfo {
-  color: black;
+  color: #000000;
   padding-left: 10px;
   padding-top: 10px;
 }
@@ -288,7 +288,7 @@ footer .row {
 .photo-gyminfo img {
     max-width: 95%;
     max-height: 380px;
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 /*End of Page - gyminfo.html*/
 
