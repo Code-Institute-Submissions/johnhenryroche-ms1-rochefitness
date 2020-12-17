@@ -155,13 +155,13 @@ This testing confirmed that the code was fully in order (no errors found).
 ### Further Testing
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 - I also tested the website in Google Lighthouse, which returned the following scores; (i) Performance: 73, (ii) Accessibility: 90, (iii) Best Practices: 79 & (iv) SEO: 92.
-- The website was viewed on a variety of devices such as Desktop, iPad, iPhone 6 & iPhone X. All formats were in order with no sections out of line or overlapping.
-- I completed a large amount of testing to ensure that all links were working correctly and that external links opened, and was happy that there were no broken links.
+- The website was viewed on a variety of devices such as Desktop, iPad, iPhone 6 & iPhone X. All formats were in order with no sections out of line or overlapping owing to changes to margins/padding etc. I had implemented during the build process when I noted that there were issues with viewing the site in different screen sizes.
+- I completed a large amount of detailed testing to ensure that all links were working correctly and that external links opened, and was happy that there were no broken links. This involved going into every page of the site and clicking every link/button that is available to a user (as part of their journey through the site) to ensure that everything was fully functional.  
 - I tested adding (i) a JavaScript onclick function to the Enquiry Form and/or (ii) a modal Bootstrap button to display a "Submitted" popup text when submit button was clicked, but it became too complicated (as the button would change to "Submitted" even when a field was empty), so I left the Enquiry Form as it was (e.g. all fields must be filled in and then submit button is clicked, following which text is cleared (e.g. enquiry form has been submitted to gym staff)).  
-- My family were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that (e.g. background colour was added to collapsed menu following suggestion).
+- As part of the testing process, my family members were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that.
 
 ### Known Bugs
-- The dropdown links for the navbar (on mobile devices) were a little difficult to see when a page had a white background (owing to the purple colour).
+- N/A -Note: Previously the dropdown links for the navbar (on mobile devices) were a little difficult to see when a page had a white background (owing to the purple colour).
 I resolved this issue by adding a black background to the collapsed hamburger menu following a suggestion from the Peer Review Channel.
 
 
