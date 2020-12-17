@@ -37,7 +37,8 @@ Photo of Site Represented on Various Media:
 
 - In line with the Bootstrap dark theme that I used for the Navbar and Footer, the site generally has dark colours with varying shades of (i) black, (ii) fuschia, (iii) red and (iv) pink being used for the wording (and being set against a white background colour). 
   These colours were used to match the logo that I created for the gym. 
-  When selecting the images and background images, I selected dark tones in order that the white and pink text would be easily visible in front of them, and so that they would match the design of the Navbar and Footer. 
+  When selecting the images and background images, I selected dark tones in order that the white and pink text would be easily visible in front of them, and so that they would match the design of the Navbar and Footer.
+  I also added dark background shadow to the text in front of the hero images, so that this text would not be obscured and would be clearly visible.  
 
 - The colours that I used for the website are detailed in the colour chart below which I prepared on coolors.co;
 ![Colour Palette](https://user-images.githubusercontent.com/71781554/102118843-27b20180-3e38-11eb-82c5-bc13e808381b.png)
@@ -55,7 +56,7 @@ There are four hero images throughout the site (Home, About, Join, Enquiry) all 
 ### Wireframes
 - My general site map and wireframes are saved to PDF and can be found [here](assets/images/wireframes.pdf). 
 I designed them at the start of the project and they served as the basis for this project.
-In review, the wireframes stayed generally consistent with the finished design, however I amended the NavBar hamburger dropdown menu for iPad and the membership options are now listed in one line at this screen size.  
+In review, the wireframes stayed generally consistent with the finished design, however I amended the NavBar hamburger dropdown menu for iPad, the membership options are now listed in one line at this screen size and there are various other minor changes (e.g. testimonial clients amended from three to two people).  
 
 ## Features
 - The website is responsive on all device sizes (and has been tested through Chrome Dev Tools on iPhone 6, iPhone X, iPad and Desktop).
@@ -64,6 +65,14 @@ Both of these open in new windows. The Enquiry Form can be accessed through call
 - Each page in the website (except for the Enquiry Form & the Classes Schedule) features a responsive bootstrap navigation bar with the gym logo featured to the left and the five page links to the right, and these pages also each contain a 4 column footer with a copyright message, address, opening hours and contact information (email and phone).
 The Home, About, Join & Enquiry pages feature a large hero image, while there are various smaller images inputted in the Facilities, Classes & Info pages. 
 Each page has been designed to be intuitive and easy to follow, with text prepared in a concise and to the point structure, and flows in a logical manner from the Home Page to the Join Page.
+    - Home Page: Hero Image with Heading Text confirming Roche Fitness as a new gym in South Dublin.
+    - About Page: Hero Image with History/Overview of Roche Fitness & Testimonial Section.
+    - Facilities Page: 4 text boxes with accompanying images to describe facilities.
+    - Classes Page: 2 text boxes & 2 images to describe Personal & Group Training options with Class Schedule call to action button in centre of page.
+    - Join Page: 3 text boxes describing membership options & 2 call to action buttons.
+    - Info Page: Map, 3 text boxes (address, contact info & opening hours) & image.
+    - Enquiry Page: Enquiry form with submit button and Hero Image.
+    - Classes Schedule: PDF form with group class times.
 
 Navbar:
 ![screenshotnavbar](https://user-images.githubusercontent.com/71781554/102490304-8f4d9400-4066-11eb-824f-87cc89b4846d.png)
@@ -86,15 +95,17 @@ Footer:
 
 3.	[Font Awesome](https://fontawesome.com/): Font Awesome was utilised in the Facilities, Classes and Info pages, as well as in the Footer, for aesthetic and UX purposes. I matched the icons with the activity that they most closely represented.
 
-4.	[jQuery](https://jquery.com/): jQuery was utilised in line with the use of Bootstrap in sections of the website.
+4.	[jQuery](https://jquery.com/) & [Popper.js](https://popper.js.org/): jQuery & Popper were utilised in line with the use of Bootstrap in sections of the website (e.g. responsive navbar).
 
-6.	[Git](https://git-scm.com/): Git was used for version control throughout the project by utilizing the Gitpod terminal to commit to Git and Push to the GitHub repository.
+5.	[Git](https://git-scm.com/): Git was used for version control throughout the project by utilizing the Gitpod terminal to Commit to git and Push to the GitHub repository.  
 
-7.	[GitHub](https://github.com/JHR1986/johnhenryroche-ms1-rochefitness): GitHub was used to store the code for the project after being pushed from Gitpod.
+6.	[GitHub](https://github.com/JHR1986/johnhenryroche-ms1-rochefitness): GitHub was used to store the code for the project after being pushed from Gitpod.
 
-8.	[FreeLogoDesign](https://www.freelogodesign.org/): MyFreeLogo was used to create the Roche Fitness logo.
+7.	[FreeLogoDesign](https://www.freelogodesign.org/): MyFreeLogo was used to create the Roche Fitness logo.
 
-9.	[Balsamiq](https://balsamiq.com/): Balsamiq was used to create the wireframes during the initial design phase.
+8.	[Balsamiq](https://balsamiq.com/): Balsamiq was used to create the wireframes during the initial design phase.
+
+9. [Coolors](https://coolors.co/): I prepared the screenshot included in this Readme of the colours I had selected for this project using the Coolors template.
 
 ## Testing
 
@@ -107,13 +118,13 @@ This testing confirmed that the code was fully in order (no errors found).
 
 1. As a First Time Visitor, I want to quickly establish what services the gym offers and what is the process for enquiring about joining as a member.
 - Upon entering the home page of the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Join Us Now" Call to Action button.
-- The main points are made immediately made with the Hero Image (Woman Working Out), the heading "Roche Fitness" and the logo on the Navbar and a brief paragraph explaining what the service offered is.
+- The main points are made immediately with the Hero Image (Woman Working Out), the heading "Roche Fitness" and the logo on the Navbar and a brief paragraph explaining what the service offered is.
 - The user has two options on the main home page, click the Call to Action Button, go to other links or scroll down and view the Footer at the bottom which has general information.
 
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site pages and find key information about the location of the gym and contact details (email & phone) for enquiries.
 - The site has been designed to be fluid and easy to follow. At the top of every page there is a clean navigation bar, and each link word clearly describes why they would follow that link.
 - The logo has a link to the Home Page so no matter where the user is in the site, they can always return to the main page.
-- The Call to Action buttons for "Join Us" are listed in the Home Page and Join Page, and the "Contact Our Team" button brings the user to the Join page.  
+- The Call to Action buttons for "Join Us" are listed in the Home Page and Join Page, and the "Contact Our Team" button brings the user to the Join Page.  
 - The Join Us button when clicked opens an Enquiry Page which has options for submitting a query to the Gym Team in respect of enquiring about membership options.
 
 3. As a First Time Visitor, I want to view testimonials from gym members to understand how current members view the services available and whether the gym would suit me to apply.
@@ -128,7 +139,7 @@ This testing confirmed that the code was fully in order (no errors found).
 2. As a Returning Visitor, I want to find the best way to get in contact with the gym with any additional questions I may have.
 - The navigation bar clearly highlights the Join page which has all the relevant information.
 - The Join page has a map of the gym's location, information about the car park and the details for Opening Hours and Contact information.
-- Contact Information is also listed in the Footer section of every page (address, phone and email), along with general information. 
+- Contact Information is also listed in the Footer section of every page (address, phone and email), along with general information, so users can view this information from every page. 
 
 ### Frequent User Goals
 
@@ -146,12 +157,12 @@ This testing confirmed that the code was fully in order (no errors found).
 - I also tested the website in Google Lighthouse, which returned the following scores; (i) Performance: 73, (ii) Accessibility: 90, (iii) Best Practices: 79 & (iv) SEO: 92.
 - The website was viewed on a variety of devices such as Desktop, iPad, iPhone 6 & iPhone X. All formats were in order with no sections out of line or overlapping.
 - I completed a large amount of testing to ensure that all links were working correctly and that external links opened, and was happy that there were no broken links.
-- I tested adding (i) a JavaScript onclick function to the Enquiry Form and/or (ii) a modal Bootstrap button to display a "Submitted" popup text when submit button was clicked, but it became too complicated (as the button would change to "Submitted" even when a field was empty), so I left the Enquiry Form as it was (e.g. all fields must be filled in and then submit button is clicked).  
-- My family were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that.
+- I tested adding (i) a JavaScript onclick function to the Enquiry Form and/or (ii) a modal Bootstrap button to display a "Submitted" popup text when submit button was clicked, but it became too complicated (as the button would change to "Submitted" even when a field was empty), so I left the Enquiry Form as it was (e.g. all fields must be filled in and then submit button is clicked, following which text is cleared (e.g. enquiry form has been submitted to gym staff)).  
+- My family were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that (e.g. background colour was added to collapsed menu following suggestion).
 
 ### Known Bugs
 - The dropdown links for the navbar (on mobile devices) were a little difficult to see when a page had a white background (owing to the purple colour).
-I resolved this issue by adding a black background to the collapsed hamburger menu.
+I resolved this issue by adding a black background to the collapsed hamburger menu following a suggestion from the Peer Review Channel.
 
 
 ## Deployment
@@ -180,11 +191,11 @@ By forking the GitHub Repository you are able to make a copy of the original rep
 1.	Log in to GitHub and locate the GitHub Repository
 2.	Under the repository name, click "Clone or download".
 3.	To clone the repository using HTTPS, copy the link under "Clone with HTTPS".
-4.	Proceed to open Git Bash
+4.	Proceed to open Git Bash.
 5.	Change the current working directory to the location where you want the cloned directory to be made.
 6.	Type ```git clone```, and then paste the URL you copied from the link in Step 3.
-7.  ```$ git clone https://github.com/USERNAME/REPOSITORY```
-8. Press Enter and your local clone will be created and available.
+- ```$ git clone https://github.com/USERNAME/REPOSITORY```
+7.  Press Enter and your local clone will then be created and available to be used.
 
 ## Credits
 
@@ -208,4 +219,4 @@ By forking the GitHub Repository you are able to make a copy of the original rep
 
 ### Acknowledgements
 - I want to thank my Mentor, Maranatha Ilesanmi, for continuous helpful feedback during the various processes of this project.
-- I also want to thank Tutor support at Code Institute for their support during my first term.
+- I also want to thank Tutor Support and Student Care at Code Institute for their support and advice during my first term.
