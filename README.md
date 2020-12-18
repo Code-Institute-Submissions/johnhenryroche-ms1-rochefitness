@@ -50,8 +50,10 @@ I saw this font used in various projects and was keen on its design and thought 
 
 ### Imagery
 - The imagery within the website is an important feature for attracting new members. 
-On this basis, the large background hero image on the Home Page of the woman weightlifting is designed to be striking and catch the user's attention. I used several varying images of people working out to establish the fitness aspect of the gym. 
+On this basis, the large background hero image on the Home Page of the woman weightlifting is designed to be striking and catch the user's attention (see image below). I used several varying images of people working out to establish the fitness aspect of the gym. 
 There are four hero images throughout the site (Home, About, Join, Enquiry) all of which have athletes weight lifting or using exercise machines, while there are also several smaller images as well. 
+
+![heroimage](https://user-images.githubusercontent.com/71781554/102618510-d99c4700-4132-11eb-9544-2636a950ccf6.png)
 
 ### Wireframes
 - My general site map and wireframes are saved to PDF and can be found [here](assets/images/wireframes.pdf). 
