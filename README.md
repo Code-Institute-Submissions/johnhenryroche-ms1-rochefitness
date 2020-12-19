@@ -215,7 +215,22 @@ By forking the GitHub Repository you are able to make a copy of the original rep
 - All content within this project was written by the developer.
 
 ### Media
-- The images used in the project were all sourced from [Unsplash](https://unsplash.com/), which is a photo site with a large catalogue of high-quality free to use images which are not the subject of copyright.  
+- The images used in the project were all sourced from [Unsplash](https://unsplash.com/), which is a photo site with a large catalogue of high-quality free to use images which are not the subject of copyright.
+The attributions for these images are listed below;
+    - [Home Page Hero Img - John Arano](https://unsplash.com/photos/h4i9G-de7Po)
+    - [About Page Hero Img - Scott Webb](https://unsplash.com/photos/xwMlVSqP20U)
+    - [About Page Man Testimonial Img - Jurica Koletic](https://unsplash.com/photos/7YVZYZeITc8)
+    - [About Page Woman Testimonial Img - Štefan Štefančík](https://unsplash.com/photos/QXevDflbl8A)
+    - [Facilities Page Weights Img - Greg Rosenke](https://unsplash.com/photos/0zkJ1EsH9dY)
+    - [Facilities Page Man Img - Nathan Dumlao](https://unsplash.com/photos/REafAGAia54)
+    - [Facilities Page Woman Img - Logan Weaver](https://unsplash.com/photos/amgv9YUg-MA)
+    - [Facilities Page Workout Img - Ulissa Tagle](https://unsplash.com/photos/2YCy6l14Opo)
+    - [Classes Page Group Workout Img - Meghan Holmes](https://unsplash.com/photos/wy_L8W0zcpI) 
+    - [Classes Page Personal Training Img - Jonathan Borba](https://unsplash.com/photos/R0y_bEUjiOM)
+    - [Join Page Hero Img - Daniel Opadaca](https://unsplash.com/photos/WdoQio6HPVA)
+    - [Gym Info Page Img - Trust Tru Katsande](https://unsplash.com/photos/Pu7BOaYlYGY)
+    - [Enquiry Page Hero Img - Victor Freitas](https://unsplash.com/photos/qZ-U9z4TQ6A) 
+
 - The logo for Roche Fitness was created using a template which I made on a design website called [FreeLogoDesign](https://www.freelogodesign.org/), and which I amended in respect of colour scheme and design. This is a website which allows people to make brand logos for free. 
 - The map on the Info Page was input from [Google Maps](https://www.google.com/maps).
 
