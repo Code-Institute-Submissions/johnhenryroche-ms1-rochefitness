@@ -44,7 +44,7 @@ Photo of Site Represented on Various Media:
 ![Colour Palette](https://user-images.githubusercontent.com/71781554/102118843-27b20180-3e38-11eb-82c5-bc13e808381b.png)
 
 ### Typography
-- The Roboto font (which I downloaded from Google Fonts) is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font fails to be imported. 
+- The Roboto font (which I downloaded from Google Fonts) is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the Roboto font fails to be imported correctly. 
 - As per its description on the Google Fonts website, Roboto is a font with a dual nature. It has a mechanical skeleton and the forms are largely geometric, while the font features friendly and open curves. 
 I saw this font used in various projects and was keen on its design and thought that it fitted well with my overall design concept.
 
@@ -61,9 +61,9 @@ I designed them at the start of the project and they served as the basis for thi
 In review, the wireframes stayed generally consistent with the finished design, however I amended the NavBar hamburger dropdown menu for iPad, the membership options are now listed in one line at this screen size and there are various other minor changes (e.g. testimonial clients amended from three to two people).  
 
 ## Features
-- The website is responsive on all device sizes (and has been tested through Chrome Dev Tools on iPhone 6, iPhone X, iPad and Desktop).
+- The website is responsive on all device sizes (and has been tested through Chrome Dev Tools on various devices including iPhone 6, iPhone X, iPad and Desktop).
 - The website has several interactive elements, including various Bootstrap buttons which can be clicked to open up an Enquiry Form and a Class Schedule. 
-Both of these open in new windows. The Enquiry Form can be accessed through call to action buttons on the Home Page and Join page, while the Classes Schedule is accessed through a call to action button at the centre of the Classes page.
+Both of these open in new windows. The Enquiry Form can be accessed through call to action buttons on the Home Page and Join Page, while the Classes Schedule is accessed through a call to action button at the centre of the Classes page.
 - Each page in the website (except for the Enquiry Form & the Classes Schedule) features a responsive bootstrap navigation bar with the gym logo featured to the left and the five page links to the right, and these pages also each contain a 4 column footer with a copyright message, address, opening hours and contact information (email and phone).
 The Home, About, Join & Enquiry pages feature a large hero image, while there are various smaller images inputted in the Facilities, Classes & Info pages. 
 Each page has been designed to be intuitive and easy to follow, with text prepared in a concise and to the point structure, and flows in a logical manner from the Home Page to the Join Page;
@@ -111,17 +111,17 @@ Footer:
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project (6 html pages, 2 forms & css page) in order to ensure that there were no syntax errors in the project (e.g. the code was fully accurate and correctly structured throughout).
-This testing confirmed that the code was fully in order (no errors found).
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project (7 html pages & css page) in order to ensure that there were no syntax errors in the project (e.g. the code was fully accurate and correctly structured throughout).
+This testing confirmed that the code was fully in order (no errors found in testing).
 
 ### Testing User Stories from User Experience (UX) Section
 
 ### First Time Visitor Goals
 
 1. As a First Time Visitor, I want to quickly establish what services the gym offers and what is the process for enquiring about joining as a member.
-- Upon entering the home page of the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Join Us Now" Call to Action button.
+- Upon entering the Home Page of the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Join Us Now" Call to Action button.
 - The main points are made immediately with the Hero Image (Woman Working Out), the heading "Roche Fitness" and the logo on the Navbar and a brief paragraph explaining what the service offered is.
-- The user has two options on the main home page, click the Call to Action Button, go to other links or scroll down and view the Footer at the bottom which has general information.
+- The user has three options on the main Home Page, (i) click the Call to Action Button, (ii) go to other links in the Navbar or (iii) scroll down and view the Footer at the bottom which has general information.
 
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site pages and find key information about the location of the gym and contact details (email & phone) for enquiries.
 - The site has been designed to be fluid and easy to follow. At the top of every page there is a clean navigation bar, and each link word clearly describes why they would follow that link.
@@ -136,11 +136,11 @@ This testing confirmed that the code was fully in order (no errors found).
 ### Returning Visitor Goals
 
 1. As a Returning Visitor, I want to locate information about new classes or updated facilities since my last visit to the site.
-- The latest classes are listed in a PDF page which opens in a new tab when the Class Schedule button on the Classes page is pushed.
+- The latest classes are listed in a PDF page which opens in a new tab when the Class Schedule button on the Classes Page is pushed.
 
 2. As a Returning Visitor, I want to find the best way to get in contact with the gym with any additional questions I may have.
-- The navigation bar clearly highlights the Join page which has all the relevant information.
-- The Join page has a map of the gym's location, information about the car park and the details for Opening Hours and Contact information.
+- The navigation bar clearly highlights the Join Page which has all the relevant information.
+- The Join Page has a map of the gym's location, information about the car park and the details for Opening Hours and Contact information.
 - Contact Information is also listed in the Footer section of every page (address, phone and email), along with general information, so users can view this information from every page. 
 
 ### Frequent User Goals
@@ -149,10 +149,10 @@ This testing confirmed that the code was fully in order (no errors found).
 - The user would already be comfortable with the website layout and can easily go to the Classes link where the Class Schedule link is listed at the centre of the page.
 
 2. As a Frequent User, I want to check to see if there are any new or upgraded membership options (with added benefits).
-- The user would already be comfortable with the website layout and can easily go the Join page which has all of the relevant information and links.
+- The user would already be comfortable with the website layout and can easily go the Join Page which has all of the relevant information and links.
 
 3. As a Frequent User, I want to confirm if opening hours have been amended or contact the gym with specific enquiries (e.g. is gym open on a bank holiday)
-- At the bottom of every page there is a footer which has all relevant current information for the gym.
+- At the bottom of every page there is a Footer which has all relevant current information for the gym.
 
 ### Further Testing
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers, and was found to operate satisfactorily on all of these.
@@ -163,7 +163,7 @@ This testing confirmed that the code was fully in order (no errors found).
 - As part of the testing process, my family members were asked to review the site and documentation to point out any bugs and/or user experience issues, and I also listed the project on the Peer Review channel on Slack to take on board any suggestions offered from that.
 
 ### Known Bugs
-- N/A -Note: Previously the dropdown links for the navbar (on mobile devices) were a little difficult to see when a page had a white background (owing to the purple colour).
+- N/A - Note: Previously the dropdown links for the navbar (on mobile devices) were a little difficult to see when a page had a white background (owing to the purple colour).
 I resolved this issue by adding a black background to the collapsed hamburger menu following a suggestion from the Peer Review Channel.
 
 
@@ -175,40 +175,40 @@ This project was developed using Gitpod. I planned the site outline and structur
 
 To deploy this page to GitHub Pages, the following steps need to be followed;
 
-1.	Log in to the GitHub website and locate the GitHub Repository.
+1.	Log in to the GitHub website and locate the GitHub Repository containing the project.
 2.	At the top of the Repository, locate the "Settings" Button in the menu area.
-3.	Scroll down to the Settings page until you arrive at the "GitHub Pages" Section.
-4.	Under "Source", click the dropdown menu called "None" and select "Master Branch".
-5.	The page will automatically refresh and the website is now deployed and is able to be viewed.
-6.	Scroll back down to locate the now published site link in the "GitHub Pages" section.
+3.	Scroll down the Settings page until you come to the "GitHub Pages" Section.
+4.	Under the section named "Source", click the dropdown menu called "None" and select "Master Branch".
+5.	The page will automatically refresh and the website is now deployed and is able to be viewed as a web page.
+6.	Scroll back down the page to locate the now published site link in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository you are able to make a copy of the original repository on the GitHub account to view and/or make changes without affecting the original repository;
-1.	Log in to GitHub and locate the GitHub Repository.
-2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate and select the "Fork" Button.
-3.	You should now have a copy of the original repository in your GitHub account.
+By forking the GitHub Repository, this enables you to make a copy of the original Repository on the GitHub account to view and/or make changes without affecting the original repository;
+1.	Log in to GitHub and locate the GitHub Repository which contains the project.
+2.	At the top of the Repository (as opposed to the top of page) just above the "Settings" Button on the menu, locate and then select the "Fork" Button.
+3.	You should now have a copy of the original Repository in your GitHub account which you can inspect.
 
 ### Making a Local Clone
-1.	Log in to GitHub and locate the GitHub Repository
-2.	Under the repository name, click "Clone or download".
-3.	To clone the repository using HTTPS, copy the link under "Clone with HTTPS".
+1.	Log in to your GitHub account and locate the GitHub Repository which contains the project.
+2.	Under the Repository name, click "Clone or download".
+3.	If you wish to clone the Repository using HTTPS, you should copy the link under "Clone with HTTPS".
 4.	Proceed to open Git Bash.
 5.	Change the current working directory to the location where you want the cloned directory to be made.
-6.	Type ```git clone```, and then paste the URL you copied from the link in Step 3.
+6.	Type ```git clone```, and then paste the URL you copied from the link that is detailed in Step 3 above.
 - ```$ git clone https://github.com/USERNAME/REPOSITORY```
-7.  Press Enter and your local clone will then be created and available to be used.
+7.  Press Enter and your local clone will then be created and available to be inspected and reviewed.
 
 ## Credits
 
 ### Code
-- [Bootstrap w-100](https://stackoverflow.com/questions/43405426/why-use-bootstraps-w-100-class-to-split-a-rows-columns-into-two-rows-when-yo): I studied this post in order to split the page into four boxes on the Classes page and retain the Call to Action "Classes Schedule" button in the middle of the page.
+- [Bootstrap w-100](https://stackoverflow.com/questions/43405426/why-use-bootstraps-w-100-class-to-split-a-rows-columns-into-two-rows-when-yo): I studied this post in order to split the page into four boxes on the Classes Page and retain the Call to Action "Classes Schedule" button in the middle of the page.
 - [Insert a Google Map to Your Website](https://www.youtube.com/watch?v=KIC0OK9nKXY): I watched this Youtube Tutorial to understand how to input an interactive Google Map into the Info Page.
 - [Build A Complete HTML & CSS Website with Bootstrap 4](https://www.youtube.com/watch?v=V_lAhqLXT9A): I watched this Youtube tutorial before I commenced my project to gain a more detailed understanding of how Bootstrap is applied when constructing a website. 
 - [Bootstrap4](https://getbootstrap.com/): I used the Bootstrap Library throughout the project to make the site more responsive through using the Bootstrap Grid System and employing Bootstrap elements for the Navbar, Footer, Jumbotron, Sections and Query Form.
 - [z-index 9999](https://stackoverflow.com/questions/18769549/why-do-i-have-to-configure-z-index-to-be-9999): My dropdown menu was not showing in mobile so I followed advice on StackOverflow to put the Z-Index to 9999 which resolved the issue.
 - [Using Background Images for Divs - screen reader](https://stackoverflow.com/questions/40555111/what-is-the-best-way-to-use-a-background-image-on-a-div-yet-remain-accessible): As I used a few images to fill Divs (background-size: cover) in the website, I followed the instructions for this post so that these images would still be fully accessible to someone with a screen reader.
-- [Using Title in Enquiry Form - screen reader](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute): I was having difficulty adding screen reader information for the Hero Image on the query page, so I used the reply from this post which advises to use "title" to assist screen-readers who cannot see the hero image.
+- [Using Title in Enquiry Form - screen reader](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute): I was having difficulty adding screen reader information for the Hero Image on the Query Page, so I used the reply from this post which advises to use "title" to assist screen-readers who cannot see the hero image.
 - [Background Colour for Collapsed Menu](https://stackoverflow.com/questions/39211628/background-for-hamburger-menu-items-in-bootstrap): I noted that list items in collapsible hamburger menu were difficult to see. This post explained how to add a background colour to the collapsed Navbar so the purple links are clearly visible. 
 
 ### Content
